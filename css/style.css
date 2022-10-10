@@ -1,0 +1,61 @@
+/* Fonts */
+@font-face {
+    font-family: 'Adobe Jenson Pro';
+    src: url('../assets/fonts/AJensonPro-Regular.eot');
+    src: url('../assets/fonts/AJensonPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/AJensonPro-Regular.woff2') format('woff2'),
+        url('../assets/fonts/AJensonPro-Regular.woff') format('woff'),
+        url('../assets/fonts/AJensonPro-Regular.ttf') format('truetype'),
+        url('../assets/fonts/AJensonPro-Regular.svg#AJensonPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.font-family.jenson {
+    font-family: 'Adobe Jenson Pro';
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../assets/fonts/WorkSans-Regular.eot');
+    src: url('../assets/fonts/WorkSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/WorkSans-Regular.woff2') format('woff2'),
+        url('../assets/fonts/WorkSans-Regular.woff') format('woff'),
+        url('../assets/fonts/WorkSans-Regular.ttf') format('truetype'),
+        url('../assets/fonts/WorkSans-Regular.svg#WorkSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.font-family.worksans {
+    font-family: 'Work Sans';
+}
+
+/* Headings and Paragraphs*/
+h1{
+    font-family: 'Adobe Jenson Pro';
+    font-size: 60px;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Adobe Jenson Pro';
+    font-size: 50px;
+}
+h3{
+    font-family: 'Adobe Jenson Pro';
+    font-size: 40px;
+}
+h4{
+    font-family: 'Adobe Jenson Pro';
+    font-size: 30px;
+}
+h5{
+    font-family: 'Adobe Jenson Pro';
+    font-size: 20px;
+}
+h6{
+    font-family: 'Adobe Jenson Pro';
+    font-size: 10px;
+}
+p{
+    font-family: 'Work Sans';
+}
