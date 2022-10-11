@@ -11,8 +11,17 @@
     font-style: normal;
     font-display: swap;
 }
-.font-family.jenson {
-    font-family: 'Adobe Jenson Pro';
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../assets/fonts/JosefinSans-Regular.eot');
+    src: url('../assets/fonts/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/JosefinSans-Regular.woff2') format('woff2'),
+        url('../assets/fonts/JosefinSans-Regular.woff') format('woff'),
+        url('../assets/fonts/JosefinSans-Regular.ttf') format('truetype'),
+        url('../assets/fonts/JosefinSans-Regular.svg#JosefinSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Work Sans';
@@ -26,19 +35,28 @@
     font-style: normal;
     font-display: swap;
 }
+.font-family.jenson {
+    font-family: 'Adobe Jenson Pro';
+}
 .font-family.worksans {
     font-family: 'Work Sans';
+}
+.font-family.josefindans {
+    font-family: 'Josefin Sans';
 }
 
 /* Headings and Paragraphs*/
 h1{
     font-family: 'Adobe Jenson Pro';
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 700;
+    letter-spacing: 4px;
 }
 h2{
     font-family: 'Adobe Jenson Pro';
-    font-size: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 4px;
 }
 h3{
     font-family: 'Adobe Jenson Pro';
@@ -58,4 +76,16 @@ h6{
 }
 p{
     font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+a {
+    font-family: 'Josefin Sans' !important;
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+    font-size: 12px !important;
+}
+.pm-bg-brown {
+    background-color: #B7A18B;
 }
